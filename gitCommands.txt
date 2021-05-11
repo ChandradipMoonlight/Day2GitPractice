@@ -1,0 +1,201 @@
+   97  history | grep git >> gitcommand.txt 
+  176  git clone https://github.com/ChandradipMoonlight/day10Assignment.git
+  182  git add arithComp.sh 
+  183  git status
+  184  git commit -m "start of arithamatic computation"
+  185  git status
+  186  git push origin main
+  187  git branch uc-1-userInput
+  188  git checkout uc-1-userInput 
+  191  git add arithComp.sh 
+  192  git status
+  193  git commit -m "taken user input"
+  194  git push origin uc-1-userInput 
+  195  git checkout main
+  196  git merge uc-1-userInput 
+  197  git diff
+  198  git diff arithComp.sh
+  199  git status
+  201  git push origin main
+  202  git checkout -b "uc-2-comput a+b*c"
+  203  git checkout -b "uc-2-comput1"
+  212  git add arithComp.sh 
+  213  git status
+  214  git commit -m "first computation done"
+  215  git push origin uc-2-comput1 
+  216  git checkout main
+  217  git status
+  218  git merge uc-2-comput1 
+  219  git push origin mian
+  220  git push origin main
+  221  git checkout -b "uc-3-comput2"
+  224  git add arithComp.sh 
+  225  git status
+  226  git commit -m "second computation done"
+  227  git push origin uc-3-comput2 
+  228  git checkout main
+  229  git merge uc-3-comput2 
+  230  git push origin main 
+  231  git checkout -b "uc-4-comput3"
+  235  git add arithComp.sh 
+  236  git status
+  237  git commit -m "third computation done"
+  238  git push origin uc-4-comput3 
+  239  git checkout main 
+  240  git merge uc-4-comput3 
+  241  git push origin main
+  242  git checkout -b "uc-5-comput4"
+  250  git add arithComp.sh 
+  251  git commit -m "comput4 done"
+  252  git push origin uc-5-comput4 
+  253  git checkout main
+  254  git merge uc-5-comput4 
+  255  git push origin main
+  256  git checkout -b "uc-6-storDictionay"
+  261  git add arithComp.sh 
+  262  git commit -m "stored the result into dictionary"
+  263  git push origin uc-6-storDictionay 
+  264  git checkout main
+  265  git merge uc-6-storDictionay 
+  266  git push origin main
+  267  git checkout -b "uc-7-dictToArray" 
+  272  git add arithComp.sh 
+  273  git commmit -m "store the values of the diction array"
+  274  git commit -m "store the values of the diction array"
+  275  git push origin uc-7-dictToArray 
+  276  git checkout main
+  277  git merge uc-7-dictToArray 
+  278  git push origin main
+  279  git chekout -b "uc-8-sortDecending"
+  280  git checkout -b "uc-8-sortDecending"
+  303  git add arithComp.sh 
+  304  git commit -m "sorting done in desending order"
+  305  git push origin uc-8-sortDecending 
+  306  git checkout uc-8-sortDecending 
+  307  git checkout main
+  308  git merge uc-8-sortDecending 
+  309  git push origin main
+  310  git checkout -b "uc-9-sortinAscending"
+  313  git add arithComp.sh 
+  314  git commit -m "sorting done in Ascending order"
+  315  git push origin uc-9-sortinAscending 
+  316  git checkout main
+  317  git merge uc-9-sortinAscending 
+  318  git push origin main
+  321  history | grep git >>gitCommands
+  323  history | grep git >>gitCommands.txt
+  327  git clone https://github.com/ChandradipMoonlight/flipCoinSimulation.git
+  331  git add flipCoin.sh 
+  332  git status
+  333  git commit -m "first commit"
+  334  git push origin main
+  335  git checkout -b "uc-1-HeadTailDisplay"
+  340  git add flipCoin.sh 
+  341  git status
+  342  git commit -m "printed result Head or Tail"
+  343  git push origin uc-1-HeadTailDisplay 
+  344  git status
+  345  git push origin uc-1-HeadTailDisplay 
+  346  git push origin uc-1-HeadTailDisplay 
+  347  git checkout main
+  348  git merge uc-1-HeadTailDisplay 
+  349  git status
+  350  git push origin main
+  351  git checkout -b "uc-2-flipCoinMultiple"
+  362  git add flipCoin.sh 
+  363  git status
+  364  git commit -m "coin flip multiple times"
+  365  git status
+  366  git push origin uc-2-flipCoinMultiple 
+  367  git checkout main
+  368  git merge uc-2-flipCoinMultiple 
+  369  git push origin main
+  370  git checkout -b "uc-3-winOrLoose"
+  484  git clone https://github.com/bhoodevsharma14/JavaPractice.git
+  503  git init
+  504  git status
+  505  git add ./
+  506  git status
+  507  git status
+  508  git commit "added Hello message"
+  509  git commit -m "added Hello message"
+  510  git push origin mian
+  511  git branch -M main
+  512  git remote add origin https://github.com/ChandradipMoonlight/Day2GitPractice.git
+  513  git push -u origin main
+  514  git pull origin main
+  515  git staus
+  516  git status
+  517  git status
+  518  git diff
+  519  git status
+  521  git add bin/javapractice/HelloJava.class 
+  522  git commit -m "spelling correction done"
+  523  git status
+  524  git diff
+  525  git push origin main
+  526  git status
+  527  git status
+  528  git add bin/javapractice/HelloJava.class src/javapractice/HelloJava.java 
+  529  git status
+  530  git commit -m "Spelling correction done"
+  531  git status
+  532  git push origin main
+  533  git status
+  534  git status
+  535  git pull origin main
+  536  git status
+  537  git status
+  538  git diff
+  539  git status
+  540  git status
+  541  git add bin/javapractice/HelloJava.class src/javapractice/HelloJava.java 
+  542  git status
+  543  git diff
+  544  git commit -m "changes done in greeting messages"
+  545  git push origin main
+  546  git pull origin main
+  547  git status 
+  548  git diff
+  549  git status
+  550  git add src/javapractice/HelloJava.java bin/javapractice/HelloJava.class 
+  551  git status
+  552  git commit -m "conflict resolved"
+  553  git push origin main
+  554  git checkout -b "feature-1"
+  556  git status
+  557  git checkout main
+  558  git pull origin main
+  559  git diff
+  560  git status
+  561  git status
+  562  git status
+  563  git diff
+  565  git branch
+  566  git diff
+  567  git status
+  568  git add bin/javapractice/HelloJava.class 
+  569  git diff
+  571  git commit -m "conflict is created between loacal branch"
+  572  git ssatus
+  573  git status
+  574  git branch
+  575  git checout feature-1
+  576  git checkout feature-1 
+  577  git status
+  579  git merge main
+  580  git diff
+  581  git status
+  582  git push origin feature-1 
+  583  git status
+  585  git status
+  586  git status
+  587  git add bin/javapractice/HelloJava.class src/javapractice/HelloJava.java 
+  588  git status
+  589  git commit -m "done with code"
+  590  git push origin feature-1 
+  591  git checkout main
+  592  git merge feature-1 
+  593  git diff
+  594  git push origin main
+  596  history | grep git >>gitCommands.txt
